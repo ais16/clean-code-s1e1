@@ -134,7 +134,7 @@ var taskIncomplete=function(){
     //Append the task list item to the #incompleteTasks.
     var listItem=this.parentNode;
     incompleteTaskHolder.appendChild(listItem);
-    bindTaskEvents(listItem,taskCompleted);
+    bindTaskEvents(listItem, taskCompleted);
 }
 
 
@@ -152,7 +152,7 @@ addButton.addEventListener("click", addTask);
 addButton.addEventListener("click", ajaxRequest);
 
 
-var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
+var bindTaskEvents=function(taskListItem, checkBoxEventHandler){
     console.log("bind list item events");
 //select ListItems children
     var checkBox=taskListItem.querySelector("input[type=checkbox]");
