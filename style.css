@@ -4,15 +4,18 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .colorful-heading {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .colorful-heading img {
     width: 100%;
 }
+
 .colorful-heading .more_inf {
     font-family: fantasy, cursive;
 }
@@ -24,11 +27,13 @@ body {
     }
 
 }
+
 .centered-main-page-element {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
+
 .task {
     width: 56%;
     display: inline-block;
@@ -37,17 +42,21 @@ body {
 .task-row-wrapper {
     display: flex;
 }
+
 ul {
     margin:0;
     padding: 0px;
 }
+
 li, 
 h3 {
-    list-style:none;
+    list-style: none;
 }
+
 input,button{
     outline:none;
 }
+
 button {
     background: none;
     border: 0px;
